@@ -1,4 +1,4 @@
-title,link,source,author,date,text,classification
+Title,URL,Source,Journalist(s),Published Date,Content,Category,Label
 Istanbul mayor arrested ahead of selection to run against Erdogan,https://www.bbc.com/news/articles/c0egjvj8vdro,BBC,Emily Wither,23-03-25,"The main rival to Turkey's President Recep Tayyip Erdogan has been formally arrested and charged with corruption.
 
 Ekrem Imamoglu, the mayor of Istanbul, is expected to be selected as the opposition Republican People's Party's (CHP) 2028 presidential candidate in a ballot on Sunday.
@@ -65,7 +65,7 @@ Another woman, who had brought her 11-year-old son to the protests, said she wan
 
 ""It's getting harder to live in Turkey day by day, we can't control our lives, we can't choose who we want and there is no real justice here,"" she said.
 
-",1
+",Politics,1
 "More than 50,000 killed in Gaza since Israel offensive began, Hamas-run ministry says",https://www.bbc.com/news/articles/clyz4nnqgvdo,BBC,Tom Bennett,23-03-25,"More than 50,000 Palestinians have been killed during Israel's military campaign in Gaza, the territory's Hamas-run health ministry has announced.
 
 That number - 50,021 - equates to about 2.1% of the 2.3 million pre-war population of the territory, or around 1 in 46 people.
@@ -88,7 +88,7 @@ Israel responded to the 7 October attack with a massive military offensive, whic
 
 The MoH also reported on Sunday at least 39 deaths in the last 24 hours, bringing the total number of people killed to 673 since Israel resumed its military operations in the territory on Tuesday.
 
-",1
+",Politics,1
 Ferrari's Hamilton disqualified from Chinese GP,https://www.bbc.com/sport/formula1/articles/cn0j7gvnk89o,BBC,Andrew Benson,23-03-25,"Lewis Hamilton finished sixth at the Chinese Grand Prix on Sunday
 
 Lewis Hamilton has been disqualified from the Chinese Grand Prix for a technical infringement on his Ferrari.
@@ -141,7 +141,7 @@ Piastri leads Norris to McLaren one-two in China
 
 Hamilton hits out at 'yapping' critics after China sprint win
 
-",1
+",Sports,1
 A life spent waiting - and searching rows of unclaimed bodies,https://www.bbc.com/news/articles/c15qyyzz89lo,BBC,Farhat Javed,23-03-25,"Saira Baloch was 15 when she stepped into a morgue for the first time.
 
 All she heard in the dimly-lit room were sobs, whispered prayers and shuffling feet. The first body she saw was a man who appeared to have been tortured.
@@ -308,7 +308,7 @@ Her fingers tremble as she smooths out the creases, and in a fumbling, uncertain
 
 ""Dear Baba Jan, when will you come back? Whenever I eat or drink water, I miss you. Baba, where are you? I miss you so much. I am alone. Without you, I cannot sleep. I just want to meet you and see your face.""
 
-",1
+",World News,1
 Istanbul mayor arrested ahead of selection to run against Erdogan,https://www.bbc.com/news/articles/c0egjvj8vdro,BBC,Emily Wither,23-03-25,"The main rival to Turkey's President Recep Tayyip Erdogan has been formally arrested and charged with corruption.
 
 Ekrem Imamoglu, the mayor of Istanbul, is expected to be selected as the opposition Republican People's Party's (CHP) 2028 presidential candidate in a ballot on Sunday.
@@ -375,8 +375,8 @@ Another woman, who had brought her 11-year-old son to the protests, said she wan
 
 ""It's getting harder to live in Turkey day by day, we can't control our lives, we can't choose who we want and there is no real justice here,"" she said.
 
-",1
-"US hopes for 'real progress' in peace talks, as three killed in Russian strikes on Ukraine",https://www.bbc.com/news/live/cq6y3my01ndt,BBC,,23-03-25,"Imogen JamesLive reporter
+",Politics,1
+"US hopes for 'real progress' in peace talks, as three killed in Russian strikes on Ukraine",https://www.bbc.com/news/live/cq6y3my01ndt,BBC,James Landale,23-03-25,"Imogen JamesLive reporter
 
 As upcoming peace talks on the Ukraine war near, US envoy Steve Witkoff is hopeful meetings with both Ukraine and Russia will bring ""real progress"".
 
@@ -392,7 +392,7 @@ In Russia, Ukrainian strikes killed one person in a car fire, as the country's d
 
 We're now pausing our live coverage, but we'll be back here tomorrow as Saudi Arabia hosts peace talks. For more on the Ukraine war, we have plenty of coverage across the BBC:
 
-",1
+",Politics,1
 Pope Francis is discharged from Rome hospital,https://www.bbc.com/news/articles/crrdv84rg4do,BBC,Bethany Bell,23-03-25,"Pope Francis has appeared at his window of the Gemelli hospital in Rome and offered a blessing for the first time since being admitted on 14 February.
 
 The 88-year-old pontiff was discharged minutes later and doctors say he will need at least two months of rest at the Vatican.
@@ -425,7 +425,7 @@ He has suffered a number of health issues throughout his life, including having 
 
 Additional reporting by Giulia Tommasi
 
-",1
+",World News,1
 Trump envoy dismisses Starmer plan for Ukraine,https://www.bbc.com/news/articles/c62zm4eqvp7o,BBC,James Landale,23-03-25,"Sir Keir Starmer's plan for an international force to support a ceasefire in Ukraine has been dismissed as ""a posture and a pose"" by Donald Trump's special envoy.
 
 Steve Witkoff said the idea was based on a ""simplistic"" notion of the UK prime minister and other European leaders thinking ""we have all got to be like Winston Churchill"".
@@ -472,7 +472,7 @@ He said a ceasefire in the Black Sea would be ""implemented over the next week o
 
 He also gave details of how Trump wanted to co-operate with Russia after relations had been normalised. ""Who doesn't want to have a world where Russia and the US are doing collaboratively good things together, thinking about how to integrate their energy polices in the Arctic, share sea lines maybe, send LNG gas into Europe together, maybe collaborate on AI together?""
 
-",1
+",Politics,1
 "More than 50,000 killed in Gaza since Israel offensive began, Hamas-run ministry says",https://www.bbc.com/news/articles/clyz4nnqgvdo,BBC,Tom Bennett,23-03-25,"More than 50,000 Palestinians have been killed during Israel's military campaign in Gaza, the territory's Hamas-run health ministry has announced.
 
 That number - 50,021 - equates to about 2.1% of the 2.3 million pre-war population of the territory, or around 1 in 46 people.
@@ -495,7 +495,7 @@ Israel responded to the 7 October attack with a massive military offensive, whic
 
 The MoH also reported on Sunday at least 39 deaths in the last 24 hours, bringing the total number of people killed to 673 since Israel resumed its military operations in the territory on Tuesday.
 
-",1
+",World News,1
 South Africa envoy expelled from US 'has no regrets',https://www.bbc.com/news/articles/cg4k9v0vpv6o,BBC,Wedaeli Chibelushi,23-03-25,"The South African ambassador who was expelled from the US after a row with Donald Trump's government has said he has ""no regrets"".
 
 Ebrahim Rasool arrived back home on Sunday and was welcomed by hundreds of raucous supporters at Cape Town International Airport.
@@ -536,7 +536,7 @@ Go toBBCAfrica.comfor more news from the African continent.
 
 Follow us on Twitter@BBCAfrica, on Facebook atBBC Africaor on Instagram atbbcafrica
 
-",1
+",Politics,1
 One of the last journalists to interview John Lennon dies aged 76,https://www.bbc.com/news/articles/cq5zx32163po,BBC,Guy Lambert,23-03-25,"Former Radio 1 DJ Andy Peebles, one of the last people to interview John Lennon, has died at the age of 76, his family has confirmed.
 
 He presented on BBC Radio 1 from 1978 to 1992 and also hosted a number of editions of Top of the Pops in the 1970s and 80s.
@@ -569,8 +569,8 @@ Read said Peebles ""knew his music & cricket inside out. Raise your bat & enjoy 
 
 BBC broadcaster Tony Blackburn alsoexpressed his sadnessat the news, calling him ""a lovely man and a great broadcaster"".
 
-",1
-The man with a mind-reading chip in his brain - thanks to Elon Musk,https://www.bbc.com/news/articles/cewk49j7j1po,BBC,"Lara Lewington, Liv McMahon & Tom Gerken",23-03-25,"Having a chip in your brain that can translate your thoughts into computer commands may sound like science fiction - but it is a reality for Noland Arbaugh.
+",Entertainment,1
+The man with a mind-reading chip in his brain - thanks to Elon Musk,https://www.bbc.com/news/articles/cewk49j7j1po,BBC,"Lara Lewington, Liv McMahon, Tom Gerken",23-03-25,"Having a chip in your brain that can translate your thoughts into computer commands may sound like science fiction - but it is a reality for Noland Arbaugh.
 
 In January 2024 - eight years after he was paralysed - the 30-year-old became the first person to get such a device from the US neurotechnology firm, Neuralink.
 
@@ -678,7 +678,7 @@ Whatever happens to him, he believes his experience may be merely scratching the
 
 Additional reporting by Yasmin Morgan-Griffiths.
 
-",1
+",Technology,1
 'Wonderful teenagers helped my son on Halloween': Readers recall kindness of strangers,https://www.bbc.com/news/articles/ckg14rxnw8jo,BBC,George Sandeman,23-03-25,"Readers have told the BBC about strangers' random acts of kindness, following research that found people underestimated the good intentions of others.
 
 In an experiment by the University of British Columbia, researchers deliberately lost wallets to see how many would be returned. Almost twice as many were handed in than was predicted by people who had beensurveyed for the World Happiness Report.
@@ -735,7 +735,7 @@ The man did not want to be repaid but Sarah insisted and took his business card.
 
 Sarah, whose children now work in food and music, says remembering that act of kindness and hearing of similar deeds helps restore her faith in human nature.
 
-",1
+",Human Interest,1
 Columbia University agrees to Trump administration's demand for mask ban,https://www.bbc.com/news/articles/c9q499x3v4yo,BBC,Ana Faguy,22-03-25,"Columbia University has agreed to several demands from the Trump administration  after $400m (£310m) in federal funding was pulled over accusations the university failed to fight antisemitism on campus.
 
 Columbia says face masks used for the purpose of concealing identity are no longer allowed, and anyone involved in a protest must, when asked, present university identification.
@@ -770,7 +770,7 @@ US President Donald Trump has repeatedly alleged that Mr Khalil, and other pro-P
 
 The 30-year-old's lawyers say he was exercising free speech rights to demonstrate in support of Palestinians in Gaza and against US support for Israel. They accused the government of ""open repression of student activism and political speech"".
 
-",1
+",Politics,1
 'My husband is a fighter pilot in Ukraine. Here's how I really feel about a ceasefire',https://www.bbc.com/news/articles/c70wgq7y11qo,BBC,Zhanna Bezpiatchuk,23-03-25,"Maria's life has been reduced to waiting for the next phone call from her husband - never knowing if it might be the last.
 
 Ivan, a 31-year-old Ukrainian fighter pilot, began defending the skies from the very first hours of Russia's full-scale invasion in February 2022, and has now flown more than 200 perilous missions in his old Soviet-era Mig-29 warplane.
@@ -843,7 +843,7 @@ The priority for Maria now is to reassure her husband and offer him optimism.  S
 
 ""My husband needs to know that we are always waiting for him.""
 
-",1
+",Politics,1
 Fear and anger mount as 'battle for the soul of Romanian democracy' looms,https://www.bbc.com/news/articles/c4g7w3v5vw7o,BBC,Sarah Rainsford,23-03-25,"The Romanian village of Poeni has a couple of shops, a kebab grill and a pack of stray dogs.
 
 It also has a fair few voters who wanted a far-right candidate to become president.
@@ -950,7 +950,7 @@ Worse still, the US, Russia and the Romanian far right now coincide.
 
 ""It's obvious that our rights are fragile and the world is regrouping, so we have to continue this battle,"" the activist warns. ""It's not just for our community. It's for the soul of Romanian democracy.""
 
-",1
+",Politics,1
 "'If Big George hit you, you stayed hit': George Foreman obituary",https://www.bbc.com/sport/boxing/articles/c39veyw9lgeo,BBC,,22-03-25,"George Foreman was a two-time heavyweight champion, winning his titles 21 years and nine months apart
 
 One version of George Foreman had only mayonnaise sandwiches to eat at school. Another was winning Olympic gold aged 19. Another was committing muggings at 15.
@@ -1115,7 +1115,7 @@ Watch every Born to Brawl episode
 
 Notifications, social media and more with BBC Sport
 
-",1
+",Sports,1
 Five key moments in the battle for Khartoum,https://www.bbc.com/news/articles/ckgy341v680o,BBC,Peter Mwai,22-03-25,"The Sudanese army has regained control of key areas of the capital, Khartoum, from the Rapid Support Forces (RSF), a paramilitary faction seeking to overthrow the overthrow the UN-recognised government.
 
 On Friday, jubilant army soldiers took photos of themselves in front of the battle-scarred entrance to the presidential palace in the heart of the city.
@@ -1182,7 +1182,7 @@ The RSF still hold control over significant parts of the city as well as large a
 
 Additional reporting by Kumar Malhotra, Richard Irvine-Brown, Benedict Garman and Matt Murphy
 
-",1
+",Politics,1
 'My husband is a fighter pilot in Ukraine. Here's how I really feel about a ceasefire',https://www.bbc.com/news/articles/c70wgq7y11qo,BBC,Zhanna Bezpiatchuk,23-03-25,"Maria's life has been reduced to waiting for the next phone call from her husband - never knowing if it might be the last.
 
 Ivan, a 31-year-old Ukrainian fighter pilot, began defending the skies from the very first hours of Russia's full-scale invasion in February 2022, and has now flown more than 200 perilous missions in his old Soviet-era Mig-29 warplane.
@@ -1255,12 +1255,7 @@ The priority for Maria now is to reassure her husband and offer him optimism.  S
 
 ""My husband needs to know that we are always waiting for him.""
 
-",1
-Your pictures on the theme of 'my best photo',https://www.bbc.com/news/articles/c871q3dpyxpo,BBC,,23-03-25,"We asked our readers to send in their best pictures on the theme of ""my best photo"". Here is a selection of the photographs we received from around the world.
-
-All photographs subject to copyright.
-
-",1
+",Politics,1
 Are Nigerians abroad widening the class divide back home?,https://www.bbc.com/news/articles/cvg1p5ek72vo,BBC,Danai Nesta Kupemba,23-03-25,"Scenes playing out in Nigeria during holiday periods could be in a movie: emotional reunions at airport terminals, champagne flowing like water in high-end clubs and A-list Afrobeats performers dominating stages to packed audiences nationwide.
 
 This is when Nigerians abroad return for a visit to the home country. They are nicknamed I Just Got Back (IJGB) and bring with them more than full suitcases.
@@ -1375,7 +1370,7 @@ Go toBBCAfrica.comfor more news from the African continent.
 
 Follow us on Twitter@BBCAfrica, on Facebook atBBC Africaor on Instagram atbbcafrica
 
-",1
+",Society,1
 Fear and anger mount as 'battle for the soul of Romanian democracy' looms,https://www.bbc.com/news/articles/c4g7w3v5vw7o,BBC,Sarah Rainsford,23-03-25,"The Romanian village of Poeni has a couple of shops, a kebab grill and a pack of stray dogs.
 
 It also has a fair few voters who wanted a far-right candidate to become president.
@@ -1482,7 +1477,7 @@ Worse still, the US, Russia and the Romanian far right now coincide.
 
 ""It's obvious that our rights are fragile and the world is regrouping, so we have to continue this battle,"" the activist warns. ""It's not just for our community. It's for the soul of Romanian democracy.""
 
-",1
+",Politics,1
 'Longest running pop band in history' to end touring after 68 years,https://www.bbc.com/news/articles/cvg1w93x9ggo,BBC,,22-03-25,"The Searchers will end nearly 70 years of touring with their debut at the Glastonbury Festival.
 
 The Merseybeat band, formed by Mike Pender and John McNally, have performed with different line-ups since its formation in 1957.
@@ -1509,7 +1504,7 @@ The band's Final Farewell Tour runs from 14 June and will end with a performance
 
 Listen to the best of BBC Radio Merseyside onSoundsand follow BBC Merseyside onFacebook,X, andInstagramand watchBBC North West Tonight on BBC iPlayer.
 
-",1
+",Entertainment,1
 "UK TV industry in crisis, says Wolf Hall director",https://www.bbc.com/news/articles/c3w10816en3o,BBC,Katie Razzall,23-03-25,"The director of acclaimed period drama Wolf Hall says filming of last year's second series was nearly called off weeks before it was due to begin because of budget pressures.
 
 Peter Kosminsky told BBC Two's Newsnight they eventually opted to axe costly exterior scenes in Wolf Hall: The Mirror and The Light, meaning almost everything in the Tudor drama, screened by the BBC, became ""conversations in rooms"" instead.
@@ -1576,7 +1571,7 @@ On Thursday, as she accepted an award from the Broadcasting Press Guild, Jayne F
 
 She recently told a House of Commons committee she would like to see an uplift in tax relief for high end television, similar to the one already given to the film sector.
 
-",1
+",Entertainment,1
 Venezuela to resume repatriation of migrants after deal with US,https://www.bbc.com/news/articles/c17q170zwjeo,BBC,Kayla Epstein,22-03-25,"Venezuela will resume flights for its nationals deported by the US, after reaching an agreement with the Trump administration.
 
 Venezuela, which does not have diplomatic relations with the US, hadinitially agreed to accept deportees in February.But President Nicolás Maduro halted flights in March after a dispute with the Trump administration.
@@ -1613,8 +1608,8 @@ The White House has faced allegations of defying the judge's order, which it ref
 
 The judge,James Boesberg,demanded more detailsfrom a government lawyer at a hearing on Friday.
 
-",1
-Watch: Moment police chase ends in four car pile-up in Paris,https://www.bbc.com/news/videos/c89ynj20p9po,BBC,,22-03-25,,1
+",Politics,1
+Watch: Moment police chase ends in four car pile-up in Paris,https://www.bbc.com/news/videos/c89ynj20p9po,BBC,,22-03-25,,Crime,1
 'Longest running pop band in history' to end touring after 68 years,https://www.bbc.com/news/articles/cvg1w93x9ggo,BBC,,22-03-25,"The Searchers will end nearly 70 years of touring with their debut at the Glastonbury Festival.
 
 The Merseybeat band, formed by Mike Pender and John McNally, have performed with different line-ups since its formation in 1957.
@@ -1641,7 +1636,7 @@ The band's Final Farewell Tour runs from 14 June and will end with a performance
 
 Listen to the best of BBC Radio Merseyside onSoundsand follow BBC Merseyside onFacebook,X, andInstagramand watchBBC North West Tonight on BBC iPlayer.
 
-",1
+",Entertainment,1
 "Canada can win trade war with US, foreign affairs minister Mélanie Joly says",https://www.bbc.com/news/articles/cg70mknye9lo,BBC,Ana Faguy,23-03-25,"Canada's Foreign Minister Mélanie Joly has told the BBC she believes Canada can win the trade war which was sparked by a series of tariffs ordered by US President Donald Trump.
 
 ""We are the biggest customer of the US,"" Joly told the BBC's World Service Weekend programme. ""We buy more from the Americans than China, Japan, the UK and France combined.""
@@ -1706,7 +1701,7 @@ But Trump has accused the three countries of not doing enough to end the flow of
 
 All three countries have rejected the accusations.
 
-",1
+",Politics,1
 Elfyn Evans becomes first British driver since Colin McRae to win Safari Rally,https://www.bbc.com/sport/motorsport/articles/cx2ezed056vo,BBC,,23-03-25,"Elfyn Evans is the first British driver to win the Safari Rally since Colin McRae in 2002
 
 Welshman Elfyn Evans won Safari Rally Kenya to extend his World Rally Championship (WRC) lead to 36 points after three rounds.
@@ -1777,7 +1772,7 @@ Round four of the 14 race calendar is the Rally Islas Canarias from 24-27 April.
 
 
 
-",1
+",Sports,1
 Israeli air strike kills top Hamas official in Gaza,https://www.bbc.com/news/articles/cq5zxe5l58go,BBC,Rushdi Abu Alouf,23-03-25,"An Israeli air strike on the southern city of Khan Younis in Gaza has killed top Hamas political leader Salah al-Bardaweel, a Hamas official has told the BBC.
 
 Locals say the air strike killed both Bardaweel, regarded as Hamas's highest-ranking political leader, and his wife. Israeli officials had no immediate comment.
@@ -1816,7 +1811,7 @@ The Israeli military launched a campaign to destroy Hamas in response to an unpr
 
 More than 49,500 Palestinians have been killed in Gaza since then, the Hamas-run health ministry says, and there is large-scale destruction to homes and infrastructure in the Strip.
 
-",1
+",Politics,1
 "UK TV industry in crisis, says Wolf Hall director",https://www.bbc.com/news/articles/c3w10816en3o,BBC,Katie Razzall,23-03-25,"The director of acclaimed period drama Wolf Hall says filming of last year's second series was nearly called off weeks before it was due to begin because of budget pressures.
 
 Peter Kosminsky told BBC Two's Newsnight they eventually opted to axe costly exterior scenes in Wolf Hall: The Mirror and The Light, meaning almost everything in the Tudor drama, screened by the BBC, became ""conversations in rooms"" instead.
@@ -1883,7 +1878,7 @@ On Thursday, as she accepted an award from the Broadcasting Press Guild, Jayne F
 
 She recently told a House of Commons committee she would like to see an uplift in tax relief for high end television, similar to the one already given to the film sector.
 
-",1
+",Entertainment,1
 England start Women's Six Nations with six-try win over Italy - reaction,https://www.bbc.com/sport/rugby-union/live/cx26k6vqlzrt,BBC,Mantej Mann,23-03-25,"FT: England 38-5 Italy
 
 Kat Merchant2014 England World Cup winner on BBC Radio 5 Sports Extra
@@ -1894,7 +1889,7 @@ But that second half will definitely be analysed, or should be at least, because
 
 Italy can be pretty proud of that performance.
 
-",1
+",Sports,1
 Juventus sack boss Motta and replace him with Tudor,https://www.bbc.com/sport/football/articles/c7893nk97n2o,BBC,,23-03-25,"Thiago Motta (left) had spells in charge of Genoa, Spezia and Bologna before joining Juventus in June 2024.
 
 Juventus have sacked manager Thiago Motta after just nine months in charge and replaced him Croatian Igor Tudor.
@@ -1915,7 +1910,7 @@ Tudor's first game in charge will be a home match against Genoa in Serie A on Sa
 
 Listen to the latest Football Daily podcast
 
-",1
+",Sports,1
 'The effort was there' - Tuchel on speaking to Foden & Rashford,https://www.bbc.com/sport/football/articles/cvgey3x3d0jo,BBC,,23-03-25,"This video can not be played
 
 Foden and Rashford know what is expected - Tuchel
@@ -2002,14 +1997,14 @@ Who would you pick in your England team to face Latvia? Would you make changes a
 
 
 
-",1
+",Sports,1
 WSL: Terland with first-half double for Man Utd at Aston Villa,https://www.bbc.com/sport/football/live/cd9270y21dkt,BBC,,23-03-25,"Aston Villa 0-2 Man Utd
 
 Emma SandersBBC Sport womenâs football news reporter at Villa Park
 
 I think Natalia Arroyo has just shouted at her team to get back into a back five. Chasity Grant and Paula Tomas have instantly dropped deeper.
 
-",1
+",Sports,1
 Archer records worst bowling figures in IPL history,https://www.bbc.com/sport/cricket/articles/cgj5qgy8zqlo,BBC,Ffion Wynne,23-03-25,"Jofra Archer has returned to his former side Rajasthan Royals after injuries impacted his stint with Mumbai Indians
 
 Indian Premier League 2025
@@ -2060,7 +2055,7 @@ Reece Topley (1-68)- Royal Challengers Bengaluru v Sunrisers Hyderabad, 2024
 
 Notifications, social media and more with BBC Sport
 
-",1
+",Sports,1
 Juventus sack boss Motta and replace him with Tudor,https://www.bbc.com/sport/football/articles/c7893nk97n2o,BBC,,23-03-25,"Thiago Motta (left) had spells in charge of Genoa, Spezia and Bologna before joining Juventus in June 2024.
 
 Juventus have sacked manager Thiago Motta after just nine months in charge and replaced him Croatian Igor Tudor.
@@ -2081,4 +2076,4 @@ Tudor's first game in charge will be a home match against Genoa in Serie A on Sa
 
 Listen to the latest Football Daily podcast
 
-",1
+",Sports,1
