@@ -15,6 +15,10 @@ vectorizer_content = joblib.load('website/models/vectorizer_content.pkl')
 def home():
     return render_template('index.html')
 
+@app.route('/detector')
+def detector():
+    return render_template('detector.html')
+
 @app.route('/predict', methods=['POST'])
 def predict():
     title = request.form['title']
@@ -55,6 +59,10 @@ def predict():
     author_status = "Yes" if author_listed else "No"
 
     return render_template('result.html', prediction=final_prediction[0], author_status=author_status)
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

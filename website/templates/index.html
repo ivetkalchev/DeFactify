@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeFactify 📰</title>
+    <title>DeFactify</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
-<body>
-    <header>
-        <h1>Welcome to DeFactify 📰</h1>
-        <p>Detect fake news using machine learning</p>
-    </header>
+<body> 
+    <nav>
+        <a href="/">
+            <img src="static/img/logo.png" alt="DeFactify Logo">
+        </a>    
+        <div>
+            <a href="/">Home</a>
+            <a href="/detector">Detector</a>
+            <a href="/about">About Us</a>
+        </div>
+    </nav>
     <main>
-        <form action="/predict" method="POST">
-            <label for="title">Title:</label>
-            <input type="text" id="title" name="title" required><br><br>
-        
-            <label for="content">Content:</label>
-            <textarea id="content" name="content" required></textarea><br><br>
-        
-            <!-- Binary Checkbox for Journalist -->
-            <label for="author_listed">Author Listed:</label>
-            <input type="checkbox" id="author_listed" name="author_listed" value="True"><br><br>
-
-            <button type="submit">Predict</button>
-        </form>
+        <div class ="containter">
+            <div class="slide-left">
+                <h1>Welcome to DeFactify</h1>
+                <p>Detect fake news using machine learning algorithms. </p>
+                <p>Let's make the world more informed!</p>
+                <p>Accuracy: 89.89%</p>
+                <a href="/detector" class="button">Begin Here</a>
+            </div>
+            <div class="slide-right">
+                <img src="static/img/fake-news.png" alt="DeFactify Image">
+            </div>
+        </div>
     </main>
 </body>
 </html>

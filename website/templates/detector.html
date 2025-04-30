@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body> 
+    <nav>
+        <a href="/">
+            <img src="static/img/logo.png" alt="DeFactify Logo">
+        </a>
+        <div>
+            <a href="/">Home</a>
+            <a href="/detector">Detector</a>
+            <a href="/about">About Us</a>
+        </div>
+    </nav>
+    <header>
+        <h2>How to Use DeFactify?</h2>
+        <ul>
+            <li><Strong>Step 1:</Strong> Enter the title and content of the news you want to verify.</li>
+            <li><Strong>Step 2:</Strong> Indicate whether the author's name is listed (optional).</li>
+            <li><Strong>Step 3:</Strong> Click on the "Predict" button.</li>
+            <li><Strong>Step 4:</Strong> View the results and still be aware!</li>
+        </ul>
+    </header>
+    <main>
+        <form action="/predict" method="POST">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" required>
+                </div>   
+                <div class="form-group">
+                    <label for="author_listed">Journalist(s) Listed:</label>
+                    <input type="checkbox" id="author_listed" name="author_listed" value="True">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" required></textarea>
+            </div>
+            <button type="submit" class="button">Predict</button>
+        </form>        
+    </main>
+</body>
+</html>

@@ -3,11 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeFactify Result</title>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Prediction Result</h1>
-    <p>The combined prediction is: {{ prediction }}</p>
-    <a href="/">Go Back</a>
+    <nav>
+        <a href="/">
+            <img src="static/img/logo.png" alt="DeFactify Logo">
+        </a>
+        <div>
+            <a href="/">Home</a>
+            <a href="/detector">Detector</a>
+            <a href="/about">About Us</a>
+        </div>
+    </nav>
+    <div class="result-container"></div>
+        <h1>Prediction</h1>
+        <p>We predict the news article is <strong>{{ prediction }}</strong> !!</p>
+        <a href="/" class="button">Try Again</a>
+    </div>
 </body>
 </html>
