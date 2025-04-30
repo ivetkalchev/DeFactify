@@ -1,15 +1,15 @@
-from flask import Flask, request, render_template
+import numpy
 import joblib
-import numpy as np
-from text_processing import preprocess_and_stem 
+from text_processing import preprocess_and_stem
+from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
-# Load models
+# models
 nb_model = joblib.load('website/models/naive_bayes_model.pkl')
-tree_model = joblib.load('website/models/decision_tree_model.pkl')
 vectorizer_title = joblib.load('website/models/vectorizer_title.pkl')
 vectorizer_content = joblib.load('website/models/vectorizer_content.pkl')
+dt_model = joblib.load('website/models/decision_tree_model.pkl')
 
 @app.route('/')
 def home():
@@ -19,50 +19,60 @@ def home():
 def detector():
     return render_template('detector.html')
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
 @app.route('/predict', methods=['POST'])
 def predict():
     title = request.form['title']
     content = request.form['content']
     author_listed = request.form.get('author_listed') == 'True'
 
-    # Preprocess inputs
+    # preprocess inputs
     processed_title = preprocess_and_stem(title)
     processed_content = preprocess_and_stem(content)
 
-    # Transform inputs
+    # transform inputs using vectorizers
     title_features = vectorizer_title.transform([processed_title]).toarray()
     content_features = vectorizer_content.transform([processed_content]).toarray()
 
-    # Combine features for Naive Bayes (assuming both title + content)
-    combined_features = np.hstack((title_features, content_features))
+    # combine features for Naive Bayes
+    combined_features = numpy.hstack((title_features, content_features))
+    author_feature = numpy.array([[1 if author_listed else 0]])
+    combined_features = numpy.hstack((combined_features, author_feature))
 
-    # Ensure the input size matches the model's expected size for Naive Bayes
+    # input size matches the Naive Bayes' expected size
     nb_feature_size = nb_model.n_features_in_
     if combined_features.shape[1] != nb_feature_size:
-        padding = np.zeros((combined_features.shape[0], nb_feature_size - combined_features.shape[1]))
-        combined_features = np.hstack((combined_features, padding))
+        padding = numpy.zeros((combined_features.shape[0], nb_feature_size - combined_features.shape[1]))
+        combined_features = numpy.hstack((combined_features, padding))
 
-    # Predict for Naive Bayes
-    nb_prediction = nb_model.predict(combined_features)
+    # predict with Naive Bayes
+    nb_prediction_prob = nb_model.predict_proba(combined_features)[0]
+    fake_news_prob = nb_prediction_prob[0]
+    real_news_prob = nb_prediction_prob[1]
 
-    # Decision Tree: Use author_listed status
-    tree_features = np.array([[int(author_listed)]])  # Shape (1,1)
-    tree_prediction = tree_model.predict(tree_features)
+    # prepare features for Decision Tree
+    dt_features = author_feature
+    dt_prediction = dt_model.predict(dt_features)[0]
 
-    # Naive Bayes: Keep existing text feature processing
-    nb_prediction = nb_model.predict(combined_features)
+    # adjust probabilities based on the Decision Tree output
+    if dt_prediction == 0: 
+        fake_news_prob += 0.2  # increase chance of Fake News
+        real_news_prob -= 0.1  # decrease chance of Real News
 
-    # Combine predictions
-    final_prediction = (nb_prediction + tree_prediction) > 1
+        total = fake_news_prob + real_news_prob
+        fake_news_prob /= total
+        real_news_prob /= total
 
-    # Display the author listed status in the result page
-    author_status = "Yes" if author_listed else "No"
+    # final prediction
+    final_prediction = "Real News" if real_news_prob > fake_news_prob else "Fake News"
 
-    return render_template('result.html', prediction=final_prediction[0], author_status=author_status)
+    # text output
+    final_prediction_text = f"{final_prediction}"
 
-@app.route('/about')
-def about():
-    return render_template('about.html')
+    return render_template('result.html', prediction=final_prediction_text)
 
 if __name__ == '__main__':
     app.run(debug=True)
