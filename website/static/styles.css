@@ -215,3 +215,16 @@ textarea {
     margin: 0 auto;
     padding: 70px;
 }
+
+.warning {
+    background-color: #ff6767;
+    color: #690000;
+    padding: 10px;
+    margin: 20px auto;
+    border: 2px solid #690000;
+    border-radius: 8px;
+    font-size: 15px;
+    max-width: 600px;
+    text-align: center;
+    display: block;
+}
