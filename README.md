@@ -7,10 +7,13 @@ DeFactify is a university project aimed at restoring trust in journalism by dete
 The core of DeFactify is a **Stacking Classifier** model with an **SVM as the meta-model**, achieving **94.15% accuracy**. It analyzes the patterns in news data to provide clear results: **True** or **Fake**.
 
 ![Homepage](website/static/img/readme/homepage.png)
+On the **Homepage**, you will see a button labeled **"Begin Here"**. Click this button to get started.
 
 ![Detector-Page](website/static/img/readme/Detector.png)
+You are then taken to the **Detector Page**, where you can follow the instructions. To use the tool, simply enter a **title** and **text** of the article or news you want to analyze. Once you've entered the information, click the **"Predict"** button.
 
 ![Result-Page](website/static/img/readme/Result.png)
+After clicking **"Predict"**, you will be redirected to the **Result Page**. Here, you will see the prediction of whether the news is **True** or **Fake**.
 
 ## 🧠 Why It Matters
 
