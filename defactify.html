@@ -9165,6 +9165,18 @@ Name: Label, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>In the initial stages of the project, I converted the categorical 'Category' field (e.g., sports, politics, etc.) into numerical values to prepare it for potential use in the model. This was done as part of a broader exploratory data analysis and feature engineering process, ensuring all fields were ready for inclusion if deemed relevant.</p>
+<p>However, after deeper analysis, I decided to focus solely on the article's title and content as inputs to the model. This decision was driven by the understanding that the primary goal of the project was to determine the authenticity of news (fake vs. real) based on textual content rather than its thematic category. Including the 'Category' field could have introduced unnecessary bias or diluted the model's ability to generalize across diverse topics. Therefore, while the category data was prepared, it was not included in the final feature set.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Journalist(s)-conversion-%F0%9F%94%81">Journalist(s) conversion 🔁<a class="anchor-link" href="#Journalist(s)-conversion-%F0%9F%94%81">¶</a></h3><p>Let's also categorize the articles based on the presence of an author. First, I want to analyze how frequently each journalist appears in the dataset.</p>
 </div>
 </div>
@@ -9310,6 +9322,7 @@ Name: count, dtype: int64
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>As assumed, journalists' presence is strongly linked to "Real" news, while their absence is more often associated with "Fake" news.</p>
+<p>Although I initially decided to focus purely on the title and content of the articles, I revisited this decision during Iteration 2 to test whether incorporating the journalist's presence as a feature could enhance model performance. However, the model demonstrated a tendency to overly simplify this relationship, strongly associating the absence of a journalist's name with 'Fake' news and the presence of a journalist's name with 'Real' news. This led to biased predictions, reducing the model's ability to generalize effectively across diverse cases. As a result, I chose to exclude this feature from the final implementation to maintain a more balanced and content-driven approach.</p>
 </div>
 </div>
 </div>
