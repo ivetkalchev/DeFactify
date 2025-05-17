@@ -109,17 +109,6 @@ p {
     font-size: 20px;
 }
 
-/* about us page */
-.about-section {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-.about-section h1{
-    text-align: center;
-}
-
 /* detector page */
 header {
     text-align: center;

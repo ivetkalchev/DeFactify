@@ -7604,7 +7604,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Data-provisioning-%F0%9F%93%A6">Data provisioning 📦<a class="anchor-link" href="#Data-provisioning-%F0%9F%93%A6">¶</a></h2><p>As I stated in the introduction, I scraped the dataset myself to provide sufficient information for training the models. One of the first problems I faced at the beginning was an old dataset filled with unreliable data, which I could not confirm as generated or authentic.</p>
+<h2 id="Data-provisioning-%F0%9F%93%A6">Data provisioning 📦<a class="anchor-link" href="#Data-provisioning-%F0%9F%93%A6">¶</a></h2><p>As I stated in the introduction, I scraped the dataset myself (in a separate notebook) to provide sufficient information for training the models. One of the first problems I faced at the beginning was an old dataset filled with unreliable data, which I could not confirm as generated or authentic.</p>
 <p>To combat the unreliable information, I needed to gather the dataset and specify the requirements for the data columns:</p>
 <ul>
 <li>Title</li>
@@ -7878,6 +7878,7 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>I tried to include news from <a href="https://www.nytimes.com/">The New York Times</a>, <a href="https://www.washingtonpost.com/">The Washington Post</a> and <a href="https://www.bloomberg.com/europe">Bloomberg</a>. Unfortunately, their articles are behind a paywall, which prevents me from accessing and including them. Additionally, I was denied access to <a href="https://www.reuters.com/">Reuters</a> due to restrictions on scraping data from their website.</p>
+<p>If I plan to expand the project in the future, I would explore methods to incorporate articles from those sources as well. While they currently pose challenges due to paywalls and restrictions on scraping, I could consider using licensed APIs or collaborating with institutions that provide access to such content for research purposes. This would ensure a more comprehensive dataset and improve the robustness of the model.</p>
 </div>
 </div>
 </div>
@@ -8389,7 +8390,7 @@ dtype: int64</pre>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>The column with the highest amount of missing data is the "Journalist(s)". In this context, it is acceptable for there to be no listed journalists, as it is common for fake news articles to lack listed authors to avoid accountability and scrutiny. By omitting author names, publishers protect themselves from legal consequences and make it harder to trace the content’s origin. Many fake news sites use AI-generated content or anonymous contributors, which also explains their absence. This anonymity helps obscure the lack of credibility and can be a tactic used in coordinated disinformation campaigns.</p>
 <p>Additionally, the absence of a publication date is not a major concern. The only reason I included it as a column is to prove its authenticity and how recent the news is.</p>
-<p>However, the "Content" is a critical element that we will analyze. Therefore, if either the "Content" or the "Category" is missing, we should discard those rows of data. The column with the "Category" may be missing, because the news could have been scraped incorrectly, and I want to ensure the final result and accuracy of the model are not compromised.</p>
+<p>However, the "Content" is a critical element that we will analyze. Therefore, if either the "Content" or the "Category" is missing, we should discard those rows of data. The column with the "Category" may be missing, because the news could have been scraped incorrectly due to some HTML tags and I want to ensure the final result and accuracy of the model are not compromised.</p>
 </div>
 </div>
 </div>
@@ -9885,7 +9886,7 @@ Content TF-IDF shape: (940, 22351)
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Although KNN is a simple algorithm well-suited for the initial phase, its accuracy is the lowest among the models tested - still acceptable, but not ideal for final deployment.</p>
+<p>Although KNN is a simple algorithm well-suited for the initial phase, its accuracy is the lowest among the models tested - still acceptable, but not ideal for final version.</p>
 </div>
 </div>
 </div>
@@ -11295,17 +11296,17 @@ weighted avg       0.19      0.43      0.26       188
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Final-Conclusions-%F0%9F%93%9D">Final Conclusions 📝<a class="anchor-link" href="#Final-Conclusions-%F0%9F%93%9D">¶</a></h2><h3 id="Domain-Analysis">Domain Analysis<a class="anchor-link" href="#Domain-Analysis">¶</a></h3><p>DeFactify is a project aimed at detecting fake news by leveraging natural language processing (NLP) techniques and machine learning. The project analyzes news articles across various domains, including politics, health and technology, focusing on textual content and article metadata to identify deceptive patterns.  Stakeholders include Yulian Kalchev, who has a keen interest in combating misinformation, and the general public, who rely on accurate information for decision-making.</p>
+<h2 id="Final-Conclusions-%F0%9F%93%9D">Final Conclusions 📝<a class="anchor-link" href="#Final-Conclusions-%F0%9F%93%9D">¶</a></h2><h3 id="Domain-Analysis">Domain Analysis<a class="anchor-link" href="#Domain-Analysis">¶</a></h3><p>DeFactify is a project aimed at detecting fake news by leveraging natural language processing (NLP) techniques and machine learning. The project analyzes news articles across various domains, including politics, health and technology, focusing on textual content and article metadata to identify deceptive patterns.  Stakeholders include Yulian Kalchev, who has a keen interest in combating misinformation and the general public, who rely on accurate information for decision-making.</p>
 <h3 id="Data-Analysis-(DAIA)">Data Analysis (DAIA)<a class="anchor-link" href="#Data-Analysis-(DAIA)">¶</a></h3><p>The original dataset containing 30,016 entries of fake and real news from 2016–2017 was deemed outdated, so a new dataset was created by scraping recent news articles from the past few months. This process presented challenges, as many fake news articles are often taken down quickly. Despite these difficulties, approximately 1000 rows of data were collected, comprising both real and fake news.</p>
 <p>The new dataset was preprocessed by cleaning text data (removing stopwords and punctuation) and handling missing values. Exploratory data analysis revealed patterns specific to the collected dataset, such as the use of emotionally charged language and exaggerated claims in fake news articles. Word clouds and frequency analysis highlighted distinct terms frequently used in each class.</p>
 <h3 id="Machine-Learning">Machine Learning<a class="anchor-link" href="#Machine-Learning">¶</a></h3><p>Overall, minimizing False Positives is crucial. In fake news detection, labeling fake news as real (false positives) is the most dangerous error. SVM and especially the Stacking Classifier with SVM meta-model minimize this risk best.</p>
 <p>Simpler models (KNN and Logistic Regression) and some ensemble methods (AdaBoost with SVM) are not suitable here due to high false positives.</p>
 <p>Although the Stacking Classifier achieves a high accuracy of 94.15%, it is important to note that the precision is not flawless and there are still instances of misclassification. The model's precision for both fake and real news shows that it occasionally makes errors, misclassifying some articles as fake when they are actually real and vice versa. This means that while the model performs well overall, there is still a risk of miscommunication. It is essential to remain cautious when relying on it for news classification. In practice, we cannot always be completely certain whether an article is truly fake or real based solely on the model's predictions, especially in borderline cases. It is always wise to verify the results and consider other factors ourselves before drawing conclusions, rather than trusting blindly.</p>
-<h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">¶</a></h3><p>The Stacking Classifier model, with an SVM meta-model, demonstrated the highest accuracy (94.15%) in detecting fake news, effectively minimizing false positives - an essential factor in this domain. This model's robust performance highlights its ability to distinguish fake from real news by leveraging advanced machine learning techniques.</p>
+<h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">¶</a></h3><p>DeFactify addresses fake news detection by combining domain analysis, data insights and machine learning. Despite challenges in sourcing up-to-date datasets, the project successfully analyzed recent articles, uncovering linguistic patterns distinguishing real and fake news. The Stacking Classifier achieved a promising 94.15% accuracy, though limitations remain in fully automating trust. This project highlights AI's potential in combating misinformation while emphasizing the need for cautious interpretation and future expansion to enhance accuracy and inclusivity.</p>
 <h3 id="Future-Recommendations">Future Recommendations<a class="anchor-link" href="#Future-Recommendations">¶</a></h3><ul>
 <li>Expand the dataset to include more diverse topics and sources for broader coverage.</li>
 <li>Incorporate real-time data scraping and monitoring to keep the dataset current.</li>
-<li>Explore techniques like transfer learning with large pre-trained language models to improve performance on nuanced cases.</li>
+<li>Explore more techniques and language models to improve performance on nuanced cases.</li>
 <li>Collaborate with fact-checking organizations to validate the model's predictions against professional evaluations.</li>
 <li>Develop an interpretable interface to assist users in understanding the reasoning behind each classification, fostering transparency and trust.</li>
 </ul>
